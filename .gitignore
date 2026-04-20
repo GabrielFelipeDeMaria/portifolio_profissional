@@ -1,0 +1,22 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node (caso use algum tooling no futuro)
+node_modules/
+npm-debug.log*
+
+# Sistema
+*.DS_Store
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp

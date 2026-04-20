@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Felipe De Maria | Portfólio</title>
+    <meta name="description" content="Portfólio de Gabriel Felipe De Maria — Estudante de Engenharia da Computação na FIAP, desenvolvedor e entusiasta de tecnologia.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">GFDM</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#education">Formação</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+                <i class="fas fa-sun" id="theme-icon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, world!</p>
+            <h1 class="hero-title">
+                Gabriel Felipe
+                <span class="hero-lastname">De Maria</span>
+            </h1>
+            <div class="hero-subtitle">
+                <span class="typewriter" id="typewriter"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-description">
+                Estudante de Engenharia da Computação na FIAP, apaixonado por tecnologia e
+                desenvolvimento de software. Transformando ideias em soluções reais.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> Ver Projetos
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-paper-plane"></i> Entre em Contato
+                </a>
+            </div>
+            <div class="hero-social">
+                <a href="https://github.com/GabrielFelipeDeMaria" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-felipe-de-maria-17a323324/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:Gabrielfdmbusiness@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" aria-label="Rolar para baixo">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span>Scroll</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>Mim</span></h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder" id="profile-img-wrapper">
+                            <img src="assets/profile.jpg" alt="Gabriel Felipe De Maria">
+                        </div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3>Quem sou eu?</h3>
+                    <p>
+                        Tenho 21 anos e curso o nono semestre de Engenharia da Computação na FIAP.
+                        Minha paixão por tecnologia nasceu com os videogames, o que me fez buscar uma
+                        carreira que combinasse criatividade, lógica e resolução de problemas complexos —
+                        encontrando o encaixe ideal no desenvolvimento de softwares.
+                    </p>
+                    <p>
+                        Trago experiência profissional em automação de tarefas, utilizando n8n para criação
+                        de bots de mensageria e inserção de dados em banco, além de atuar na manutenção de
+                        sistemas e auditoria de dados.
+                    </p>
+                    <p>
+                        Sou dedicado, proativo e adaptável, e valorizo muito o trabalho em equipe. Meu
+                        objetivo é construir uma carreira sólida e de impacto na área de TI.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="4">0</span>
+                            <span class="stat-label">Projetos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="11">0</span>
+                            <span class="stat-label">Certificados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">Idiomas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label-large">9°</span>
+                            <span class="stat-label">Semestre</span>
+                        </div>
+                    </div>
+                    <div class="about-languages">
+                        <div class="language-item">
+                            <span class="lang-name">Português</span>
+                            <div class="lang-bar"><div class="lang-fill" data-width="100"></div></div>
+                            <span class="lang-level">Nativo</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="lang-name">Inglês</span>
+                            <div class="lang-bar"><div class="lang-fill" data-width="65"></div></div>
+                            <span class="lang-level">Intermediário</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="lang-name">Espanhol</span>
+                            <div class="lang-bar"><div class="lang-fill" data-width="45"></div></div>
+                            <span class="lang-level">Básico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Minhas <span>Habilidades</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>Ciência de Dados</h3>
+                    <p>Python, Pandas, análise e estruturação de dados para dashboards e insights no Metabase</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Desenvolvimento Full-Stack</h3>
+                    <p>Criação de aplicações web completas, do front-end ao back-end, com foco em usabilidade</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Infraestrutura de TI</h3>
+                    <p>Gerenciamento, auditoria de sistemas e análise de relatórios em ambientes corporativos</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Automação</h3>
+                    <p>n8n, Selenium — criação de bots de mensageria e fluxos automatizados de processos</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Internet das Coisas</h3>
+                    <p>Projetos embarcados com sensores, atuadores e integração de hardware físico</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Engenharia de Sistemas</h3>
+                    <p>Análise, design e desenvolvimento de sistemas complexos e integrados</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-memory"></i></div>
+                    <h3>Hardware</h3>
+                    <p>Prototipagem e desenvolvimento de dispositivos físicos, mecatrônicos e robóticos</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                    <h3>Sistemas Operacionais</h3>
+                    <p>Linux e Windows — configuração, administração e otimização de ambientes</p>
+                </div>
+            </div>
+
+            <div class="tech-stack">
+                <h3>Stack Tecnológico</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">n8n</span>
+                    <span class="tech-tag">Selenium</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Metabase</span>
+                    <span class="tech-tag">Autodesk 3D</span>
+                    <span class="tech-tag">IoT</span>
+                    <span class="tech-tag">Git / GitHub</span>
+                    <span class="tech-tag">HTML / CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Linux</span>
+                    <span class="tech-tag">Arduino</span>
+                    <span class="tech-tag">Machine Learning</span>
+                    <span class="tech-tag">Computer Vision</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experiência <span>Profissional</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Estágio em TI</h3>
+                            <span class="timeline-date">Out/2024 – Presente</span>
+                        </div>
+                        <h4 class="timeline-company">
+                            <i class="fas fa-building"></i> AFL Consultores
+                        </h4>
+                        <p>
+                            Iniciei na auditoria de sistemas de TI e dados, sendo responsável pela análise de
+                            relatórios e identificação de má funcionalidade no sistema. Demonstrando interesse em
+                            desenvolvimento, minha função evoluiu progressivamente para criação de soluções de
+                            software e resolução de bugs.
+                        </p>
+                        <p>
+                            Atualmente concentro minha atuação na <strong>automação de processos</strong>, utilizando
+                            as plataformas n8n e Selenium.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>Criação de fluxos de automação de bots de mensageria</li>
+                            <li>Desenvolvimento e manutenção de bancos de dados e tabelas</li>
+                            <li>Estruturação de dados para dashboards de consulta no Metabase</li>
+                            <li>Implementação de soluções criativas para otimizar processos internos</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>n8n</span>
+                            <span>Selenium</span>
+                            <span>SQL</span>
+                            <span>Metabase</span>
+                            <span>Python</span>
+                            <span>Auditoria de Dados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Meus <span>Projetos</span></h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-year">2022</div>
+                        <div class="project-icon"><i class="fas fa-robot"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Perna Robótica Ortopédica</h3>
+                        <p class="project-partner">
+                            <i class="fas fa-handshake"></i> Hospital Oswaldo Cruz
+                        </p>
+                        <p class="project-desc">
+                            Dispositivo mecânico projetado para reabilitação de pacientes com mobilidade
+                            debilitada, replicando movimentos de fisioterapia de forma mais rápida e prática.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Autodesk 3D</span>
+                            <span>Hardware</span>
+                            <span>IoT</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-project" onclick="openModal('project1')">
+                            <i class="fas fa-info-circle"></i> Saiba Mais
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-year">2023</div>
+                        <div class="project-icon"><i class="fas fa-magic"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Projetor Imersivo Interativo</h3>
+                        <p class="project-partner">
+                            <i class="fas fa-handshake"></i> Natura
+                        </p>
+                        <p class="project-desc">
+                            Projetor inovador que combina tecnologia e ilusionismo para atrair clientes,
+                            entregando uma experiência visual impactante nos pontos de venda.
+                        </p>
+                        <div class="project-tech">
+                            <span>Projeção</span>
+                            <span>Hardware</span>
+                            <span>UX Design</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-project" onclick="openModal('project2')">
+                            <i class="fas fa-info-circle"></i> Saiba Mais
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-year">2024</div>
+                        <div class="project-icon"><i class="fas fa-mobile-alt"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>App de Produtividade Corporativa</h3>
+                        <p class="project-partner">
+                            <i class="fas fa-handshake"></i> Sanofi
+                        </p>
+                        <p class="project-desc">
+                            Aplicativo de controle de trabalho para registrar tarefas, configurar alertas
+                            e gerenciar status de atividades, promovendo organização e responsabilidade.
+                        </p>
+                        <div class="project-tech">
+                            <span>App Development</span>
+                            <span>UI/UX</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-project" onclick="openModal('project3')">
+                            <i class="fas fa-info-circle"></i> Saiba Mais
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-badge">Mais Recente</div>
+                    <div class="project-header">
+                        <div class="project-year">2025</div>
+                        <div class="project-icon"><i class="fas fa-brain"></i></div>
+                    </div>
+                    <div class="project-body">
+                        <h3>Braço Robótico com IA</h3>
+                        <p class="project-partner">
+                            <i class="fas fa-handshake"></i> SPI Integração de Sistemas
+                        </p>
+                        <p class="project-desc">
+                            Braço robótico seletor de objetos com IA integrada, sensores, bomba de sucção
+                            e visão computacional para reconhecer e manipular itens com precisão.
+                        </p>
+                        <div class="project-tech">
+                            <span>IA / ML</span>
+                            <span>Python</span>
+                            <span>IoT</span>
+                            <span>Robótica</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <button class="btn-project" onclick="openModal('project4')">
+                            <i class="fas fa-info-circle"></i> Saiba Mais
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Formação & <span>Certificados</span></h2>
+            <div class="education-grid">
+
+                <div class="education-column">
+                    <h3><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content compact">
+                                <div class="timeline-header">
+                                    <h4>Engenharia da Computação</h4>
+                                    <span class="timeline-date">2022 – 2026</span>
+                                </div>
+                                <p class="edu-school"><i class="fas fa-university"></i> FIAP</p>
+                                <p>9º semestre em andamento. Foco em desenvolvimento de software, IoT, sistemas embarcados e inteligência artificial.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content compact">
+                                <div class="timeline-header">
+                                    <h4>Ensino Médio</h4>
+                                    <span class="timeline-date">Conclusão 2021</span>
+                                </div>
+                                <p class="edu-school"><i class="fas fa-school"></i> Colégio Paulo de Tarso</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content compact">
+                                <div class="timeline-header">
+                                    <h4>Ensino Fundamental II</h4>
+                                    <span class="timeline-date">Conclusão 2018</span>
+                                </div>
+                                <p class="edu-school"><i class="fas fa-school"></i> Colégio Paulo de Tarso</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content compact">
+                                <div class="timeline-header">
+                                    <h4>Ensino Fundamental I</h4>
+                                    <span class="timeline-date">Conclusão 2014</span>
+                                </div>
+                                <p class="edu-school"><i class="fas fa-school"></i> Colégio Marista Nossa Senhora da Glória</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-column">
+                    <h3><i class="fas fa-certificate"></i> Certificados</h3>
+                    <div class="cert-grid">
+                        <a href="assets/certificados/Programação Web.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Programação Web</span>
+                            <small>Out/2025</small>
+                        </a>
+                        <a href="assets/certificados/Engenharia de Software.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Engenharia de Software</span>
+                            <small>Set/2025</small>
+                        </a>
+                        <a href="assets/certificados/Curso Python para Data Science_ primeiros passos - Alura.pdf" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Python para Data Science</span>
+                            <small>Fev/2025</small>
+                        </a>
+                        <a href="assets/certificados/Gabriel Felipe - Curso Django REST Framework_ construindo APIs RESTful do Zero - Alura.pdf" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Django REST Framework</span>
+                            <small>Jan/2025</small>
+                        </a>
+                        <a href="assets/certificados/Gestão de Infraestrutura de TI.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Gestão de Infraestrutura de TI</span>
+                            <small>Abr/2024</small>
+                        </a>
+                        <a href="assets/certificados/Soluções Tecnológicas Emergentes.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Soluções Tecnológicas Emergentes</span>
+                            <small>Abr/2024</small>
+                        </a>
+                        <a href="assets/certificados/Algoritmos Aprenda a programar.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Algoritmos: Aprenda a Programar</span>
+                            <small>Abr/2024</small>
+                        </a>
+                        <a href="assets/certificados/Dominando IoT.outubro2023.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Dominando IoT</span>
+                            <small>Out/2023</small>
+                        </a>
+                        <a href="assets/certificados/Curso Python_ crie a sua primeira aplicação - Alura.pdf" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Python</span>
+                            <small>Out/2023</small>
+                        </a>
+                        <a href="assets/certificados/Estratégias e Modelos de Negócios.outubro2022.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Estratégias e Modelos de Negócios</span>
+                            <small>Out/2022</small>
+                        </a>
+                        <a href="assets/certificados/Gestão Financeira de Empresas.outubro2022.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Gestão Financeira de Empresas</span>
+                            <small>Out/2022</small>
+                        </a>
+                        <a href="assets/certificados/Formação Social e Sustentabilidade.setembro2022.png" target="_blank" rel="noopener noreferrer" class="cert-item">
+                            <i class="fas fa-award"></i>
+                            <span>Formação Social e Sustentabilidade</span>
+                            <small>Set/2022</small>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Entre em <span>Contato</span></h2>
+            <p class="contact-subtitle">
+                Quer conversar sobre uma oportunidade, projeto ou apenas dizer olá? Estou disponível!
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:Gabrielfdmbusiness@gmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>Gabrielfdmbusiness@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-felipe-de-maria-17a323324/" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>gabriel-felipe-de-maria</p>
+                </a>
+                <a href="https://github.com/GabrielFelipeDeMaria" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <h3>GitHub</h3>
+                    <p>GabrielFelipeDeMaria</p>
+                </a>
+                <a href="tel:+5511999380533" class="contact-card">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <h3>Telefone</h3>
+                    <p>(11) 9 9938-0533</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2025 <strong>Gabriel Felipe De Maria</strong>.
+                Feito com <i class="fas fa-heart"></i> e muito café.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scroll-top" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+        <div class="modal" id="modal">
+            <button class="modal-close" onclick="closeModal()" aria-label="Fechar">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
