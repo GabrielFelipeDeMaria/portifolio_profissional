@@ -1218,6 +1218,7 @@ footer i { color: #F43F5E; }
 
 @media (max-width: 480px) {
     .container { padding: 0 1.25rem; }
+    .hero-scroll { display: none; }
     .hero-cta { flex-direction: column; align-items: center; }
     .language-item { grid-template-columns: 80px 1fr; }
     .lang-level { display: none; }
