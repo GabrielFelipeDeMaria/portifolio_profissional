@@ -2,7 +2,7 @@
 
 Portfólio profissional em HTML, CSS e JavaScript puro, sem frameworks ou dependências externas.
 
-**Acesse:** [gabrielfelipedemia.github.io/portifolio_profissional](https://gabrielfelipedemia.github.io/portifolio_profissional)
+**Acesse:** [gabrielfelipedemia.github.io/portifolio_profissional](https://gabrielfelipedeMaria.github.io/portifolio_profissional)
 
 ## Funcionalidades
 
