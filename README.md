@@ -1,58 +1,20 @@
 # Gabriel Felipe De Maria — Portfólio Pessoal
 
-Portfólio profissional desenvolvido em HTML, CSS e JavaScript puro, apresentando minha trajetória acadêmica, experiência profissional, projetos e certificações.
+Portfólio profissional em HTML, CSS e JavaScript puro, sem frameworks ou dependências externas.
 
-## Sobre
-
-Site single-page com design moderno em tema escuro/claro (paleta laranja), animações interativas e totalmente responsivo. Desenvolvido sem frameworks ou dependências externas.
+**Acesse:** [gabrielfelipedemia.github.io/portifolio_profissional](https://gabrielfelipedemia.github.io/portifolio_profissional)
 
 ## Funcionalidades
 
 - Tema escuro/claro com persistência via `localStorage`
-- Efeito typewriter nas descrições do hero
-- Partículas flutuantes animadas
-- Scroll-reveal com `IntersectionObserver`
-- Tilt 3D nos cards ao passar o mouse
-- Botões com efeito magnético
+- Efeito typewriter, partículas animadas e scroll-reveal
+- Tilt 3D nos cards e botões com efeito magnético
 - Modais de detalhe para cada projeto
-- Borda animada com gradiente no card em destaque
-- Animação de contadores nas estatísticas
-- Barras de idioma animadas
-- Navbar responsiva com menu mobile
-- Botão de voltar ao topo
+- Navbar responsiva e totalmente mobile-friendly
 
 ## Tecnologias
 
-- **HTML5** — estrutura semântica
-- **CSS3** — variáveis, animações, grid, flexbox, `@property` para bordas animadas
-- **JavaScript** — vanilla, sem frameworks
-- **Font Awesome 6.5** — ícones via CDN
-
-## Estrutura
-
-```
-portifolio_gabriel/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-└── assets/
-    ├── profile.jpg
-    └── certificados/
-        ├── *.png
-        └── *.pdf
-```
-
-## Como rodar localmente
-
-Abra o `index.html` diretamente no navegador, ou use o Live Server do VS Code para recarregamento automático.
-
-```bash
-# Alternativa com Python
-python -m http.server 5500
-# Acesse http://localhost:5500
-```
+HTML5 · CSS3 · JavaScript Vanilla · Font Awesome 6.5
 
 ## Contato
 
