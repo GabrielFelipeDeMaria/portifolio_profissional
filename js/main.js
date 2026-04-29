@@ -294,6 +294,14 @@ const modalData = {
         impact:  `Sistema de automação industrial com IA que pode ser escalado para linhas de produção,
                   logística e triagem de materiais, reduzindo erros humanos e aumentando a eficiência operacional.`,
         tech:    ['IA / Machine Learning', 'Python', 'IoT', 'Robótica', 'Computer Vision', 'Sensores', 'Motores', 'Bomba de Sucção'],
+        images:  [
+            'assets/projeto_robospi/1.jpeg',
+            'assets/projeto_robospi/2.jpeg',
+            'assets/projeto_robospi/3.jpeg',
+            'assets/projeto_robospi/4.jpeg',
+            'assets/projeto_robospi/5.jpeg',
+            'assets/projeto_robospi/6.jpeg',
+        ],
     },
 };
 
@@ -306,12 +314,12 @@ function openModal(id) {
 
     const techHTML = d.tech.map(t => `<span>${t}</span>`).join('');
 
+    const mediaHTML = d.images
+        ? `<div class="modal-gallery">${d.images.map(src => `<img src="${src}" alt="${d.title}" loading="lazy">`).join('')}</div>`
+        : `<div class="modal-img-area"><span>${d.icon}</span><p>Imagem / Vídeo do Projeto</p><small>Em breve</small></div>`;
+
     modalContent.innerHTML = `
-        <div class="modal-img-area">
-            <span>${d.icon}</span>
-            <p>Imagem / Vídeo do Projeto</p>
-            <small>Em breve</small>
-        </div>
+        ${mediaHTML}
         <h2>${d.title}</h2>
         <div class="modal-meta">
             <span class="modal-year">${d.year}</span>
